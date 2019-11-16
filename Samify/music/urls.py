@@ -17,3 +17,4 @@ urlpatterns = [
     url(r'^(?P<album_id>[0-9]+)/favorite_album/$', views.favorite_album, name='favorite_album'),
     url(r'^(?P<album_id>[0-9]+)/delete_album/$', views.delete_album, name='delete_album'),
 ]
+
